@@ -1,0 +1,111 @@
+/* General Container */
+.about-us-container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  color: #2c3e50;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: #007bff;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+/* General Section Styling */
+h1, h2 {
+  color: #2c3e50;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+p, li {
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* Background for Differentiation */
+.bg-light {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Unique Factors and Services */
+.unique-list, .services-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.unique-list li, .services-list li {
+  margin-bottom: 10px;
+}
+
+/* Meet Our Team Section */
+.meet-team-section {
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us-section {
+  background-color: #f1f1f1;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.why-choose-us-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.why-choose-us-list li {
+  background-color: #e6e6e6;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+/* Contact Us Section */
+.contact-section, .contact-us-section {
+  background-color: #007bff;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contact-section h2, .contact-us-section h2 {
+  color: #ffffff;
+}
+
+.contact-section p, .contact-us-section p {
+  font-size: 1.2rem;
+}
+
+.contact-details {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}

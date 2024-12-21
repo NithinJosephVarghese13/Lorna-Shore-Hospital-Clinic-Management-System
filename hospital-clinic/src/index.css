@@ -1,0 +1,62 @@
+textarea {
+    resize: none;
+}
+
+.help {
+    font-size: small;
+    font-family: monospace;
+}
+
+th {
+    text-align: center;
+}
+
+.title-case {
+    text-transform: capitalize;
+}
+
+.img_tbl {
+    height: 70px;
+}
+
+.img_card {
+    width: 200px;
+    margin: 5px;
+    display: inline-flex;
+}
+.img_card img {
+    height: 150px !important;
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #0d6efd, #0b5ed7);
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.rounded-3 {
+    border-radius: 0.5rem !important;
+}
+
+.btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}

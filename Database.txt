@@ -1,0 +1,79 @@
+Database (Mongo DB)
+    - MediHubDB
+
+Collections
+    
+    UserType Collection:
+
+_id
+utype
+ 
+    UserLogin Collection:
+
+_id
+usertype (Foreign Key to usertype - Many To One)
+uname
+passwd
+    
+    UserInfo Collection:
+
+_id
+    userlogin (Foreign Key to userlogin - One To One)
+name
+address
+contact
+    
+    Appointment Collection:
+
+_id
+userlogin (Foreign Key to userlogin - Many To One)
+doctor
+appointment_date
+status (pending, confirmed, canceled, etc.)
+    
+    MedicalRecord Collection:
+
+_id
+userlogin (Foreign Key to userlogin - One To One)
+diagnosis
+treatment
+test_results
+date
+    
+    Prescription Collection:
+
+_id
+userlogin (Foreign Key to userlogin - Many To One)
+doctor
+medications (array of medication objects with name, dosage, frequency, etc.)
+date
+    
+    Admin Collection:
+
+_id
+userlogin (Foreign Key to userlogin - One To One)
+role (superadmin, admin, etc.)
+    
+    Patient Collection:
+
+_id
+userlogin (Foreign Key to userlogin - One To One)
+date_of_birth
+blood_type
+allergies (array of allergies)
+    
+    Doctor Collection:
+
+_id
+userlogin (Foreign Key to userlogin - One To One)
+specialization
+license_number
+
+Appointment History Collection:
+
+_id
+userlogin (Foreign Key to userlogin - Many To One)
+doctor
+appointment_date
+status (completed, missed, etc.)
+

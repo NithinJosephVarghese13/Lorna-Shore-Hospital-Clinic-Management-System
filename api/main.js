@@ -1,0 +1,11 @@
+const express = require('express')
+const bp = require('body-parser')
+const mul = require('multer')
+const cors = require('cors')
+const app = express()
+app.use(bp.json())
+app.use(bp.urlencoded({ extended: true }))
+app.use(express.static('public'))
+app.use(mul({ dest: '/public/uploads' }).any())
+app.use(cors())
+module.exports = app

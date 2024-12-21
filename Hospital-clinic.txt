@@ -1,0 +1,15 @@
+npx create-react-app .
+
+npm i react-router-dom 
+npm i react-bootstrap
+npm i bootstrap
+npm i bootstrap-icons
+
+
+
+NB:- 
+    can use yarn also to create project
+    npm i --global yarn
+    yarn create react-app my-app
+    cd my-app
+    yarn start
